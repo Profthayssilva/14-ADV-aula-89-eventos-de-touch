@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Configurações iniciais da página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Inclusão da folha de estilo do Bootstrap para garantir um layout responsivo -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- Inclusão da biblioteca jQuery para manipulação do DOM -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Inclusão do Bootstrap JS para funcionalidades interativas -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!-- Inclusão de uma folha de estilo personalizada (style.css) -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="bodyBackground">
+    <!-- Corpo da página com uma classe CSS "bodyBackground" aplicada -->
+    <div align="center">
+        <h1>Paint</h1>
+
+        <!-- Elemento canvas para desenho com largura e altura definidas -->
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+
+        <!-- Elementos adicionais para uma atividade adicional -->
+        <br><br>
+        <span>Cor: </span>
+        <input type="text" id="color">
+        <br><br>
+        <span>Largura da Linha: </span>
+        <input type="text" id="widthOfLine">
+        <br><br>
+        <button onclick="clearArea();">Limpar</button>
+        <!-- Fim da Atividade Adicional -->
+    </div>
+
+    <!-- Inclusão do script JavaScript principal (main.js) -->
+    <script src="main.js"></script>
+</body>
+
+</html>

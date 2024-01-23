@@ -1,0 +1,39 @@
+/* Estilo para elementos com a classe bodyBackground */
+.bodyBackground {
+  background-image: url("bg1.jpg"); /* Define uma imagem de fundo */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-size: cover; /* Faz a imagem de fundo cobrir todo o elemento */
+}
+
+/* Estilo para o elemento body */
+body {
+  overflow: hidden; /* Remove barras de rolagem, ocultando conteúdo que ultrapassa os limites do corpo */
+  cursor: pointer; /* Altera o cursor para uma mão, indicando interatividade */
+}
+
+/* Estilo para elementos h1 */
+h1 {
+  color: red; /* Define a cor do texto como vermelho */
+  font-size: 40px; /* Define o tamanho da fonte como 40 pixels */
+}
+
+/* Estilo para o elemento com o ID myCanvas (um elemento canvas) */
+#myCanvas {
+  border-width: 10px; /* Define a largura da borda como 10 pixels */
+  background-color: white; /* Define a cor de fundo como branca */
+  border-style: ridge; /* Define o estilo da borda como "ridge" (saliente) */
+}
+
+/* Estilo para elementos button */
+button {
+  background-color: #4CAF50; /* Define a cor de fundo como verde */
+  border: none; /* Remove a borda */
+  color: white; /* Define a cor do texto como branco */
+  padding: 10px 42px; /* Define o preenchimento acima/abaixo e à esquerda/direita */
+  font-size: 16px; /* Define o tamanho da fonte como 16 pixels */
+}
+
+/* Estilo para elementos input */
+input {
+  margin-right: 20px; /* Adiciona uma margem à direita de 20 pixels */
+}
